@@ -6,4 +6,4 @@ const app = express();
 app.use(express.json());
 app.use("/", productRouter)
 
-app.listen(3001, () => console.log('Server Running!'));
+app.listen(3000, () => console.log('Server Running!'));
